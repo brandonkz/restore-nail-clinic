@@ -23,6 +23,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   color: var(--ink);
   background: var(--paper);
@@ -592,6 +593,7 @@ td:nth-child(3) {
 
 .booking-hero h1 {
   max-width: 760px;
+  overflow-wrap: break-word;
 }
 
 .booking-summary-card,
@@ -802,7 +804,21 @@ button.button {
   }
 
   h1 {
-    font-size: 42px;
+    font-size: 38px;
+    line-height: 1.04;
+  }
+
+  .booking-hero {
+    padding: 32px 20px 28px;
+  }
+
+  .booking-form-section {
+    padding: 24px 14px 44px;
+  }
+
+  .booking-form {
+    padding: 18px 14px;
+    box-shadow: 0 10px 28px rgba(57, 45, 35, 0.08);
   }
 
   .hero {
