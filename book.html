@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Restore Nail Clinic | Plettenberg Bay</title>
+  <meta name="description" content="Request an appointment with Restore Nail Clinic in Plettenberg Bay for restorative toenail care, LCN Pedique reconstruction, manicures and pedicures.">
+  <meta name="theme-color" content="#f7f0e7">
+  <link rel="canonical" href="https://restorenailclinicplett.co.za/book.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html#top" aria-label="Restore Nail Clinic home">
+      <span class="brand-mark">R</span>
+      <span>
+        <strong>Restore Nail Clinic</strong>
+        <small>Plettenberg Bay</small>
+      </span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html#treatments">Treatments</a>
+      <a href="index.html#prices">Prices</a>
+      <a href="book.html">Book</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="booking-hero">
+      <div>
+        <p class="eyebrow">Booking request</p>
+        <h1>Request an appointment with Mineen.</h1>
+        <p class="intro">Share the treatment you need, your preferred time and any nail concerns. The form opens WhatsApp with a structured message so Mineen can confirm the appointment personally.</p>
+      </div>
+      <aside class="booking-summary-card">
+        <strong>Best for</strong>
+        <p>Restorative toenail care, LCN Pedique reconstruction, toenail brace assessment, manicures, pedicures and men's mani/pedi appointments.</p>
+      </aside>
+    </section>
+
+    <section class="booking-form-section">
+      <form class="booking-form" id="bookingForm">
+        <div class="form-heading">
+          <p class="eyebrow">Step 1</p>
+          <h2>Your appointment request</h2>
+          <p>Fields marked with * are included in the WhatsApp booking message.</p>
+        </div>
+
+        <div class="form-grid">
+          <label>
+            <span>Full name *</span>
+            <input name="name" type="text" autocomplete="name" required>
+          </label>
+          <label>
+            <span>Mobile number *</span>
+            <input name="phone" type="tel" autocomplete="tel" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email">
+          </label>
+          <label>
+            <span>Client type *</span>
+            <select name="clientType" required>
+              <option value="">Select one</option>
+              <option>New client</option>
+              <option>Existing client</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="form-grid">
+          <label class="wide">
+            <span>Treatment *</span>
+            <select name="treatment" required>
+              <option value="">Choose a treatment</option>
+              <optgroup label="Restorative toes">
+                <option>Consultation for toenail restoration</option>
+                <option>Pedique Reconstruction per toe</option>
+                <option>LCN Toenail Brace per toe</option>
+                <option>Product Removal / Soak Off</option>
+              </optgroup>
+              <optgroup label="Feet">
+                <option>Spa Pedicure</option>
+                <option>Gel Polish on Toes</option>
+                <option>Spa Pedicure with Gel</option>
+                <option>Foot Facial</option>
+                <option>Heel Peel</option>
+                <option>Paraffin Wax</option>
+              </optgroup>
+              <optgroup label="Hands">
+                <option>Spa Manicure</option>
+                <option>Protection Manicure</option>
+                <option>Full Set Sculpted</option>
+                <option>Overlay</option>
+                <option>Rebalance / Fill</option>
+                <option>Nail Repair</option>
+                <option>Nail Art / French / Ombre</option>
+                <option>Anti-Age Hand Treatment</option>
+              </optgroup>
+              <optgroup label="Men's mani & pedi">
+                <option>Men's Pedicure</option>
+                <option>Men's Manicure</option>
+                <option>Men's Foot Facial</option>
+                <option>Men's Heel Peel</option>
+              </optgroup>
+            </select>
+          </label>
+          <label>
+            <span>Preferred date *</span>
+            <input name="date" type="date" required>
+          </label>
+          <label>
+            <span>Preferred time *</span>
+            <select name="time" required>
+              <option value="">Select one</option>
+              <option>Morning</option>
+              <option>Midday</option>
+              <option>Afternoon</option>
+              <option>First available</option>
+            </select>
+          </label>
+        </div>
+
+        <fieldset>
+          <legend>Nail concern</legend>
+          <div class="choice-grid">
+            <label><input type="checkbox" name="concern" value="Damaged or split toenail"> Damaged or split toenail</label>
+            <label><input type="checkbox" name="concern" value="Uneven or partially missing toenail"> Uneven or partially missing toenail</label>
+            <label><input type="checkbox" name="concern" value="Pressure or sport shoe damage"> Pressure or sport shoe damage</label>
+            <label><input type="checkbox" name="concern" value="Previous product damage"> Previous product damage</label>
+            <label><input type="checkbox" name="concern" value="General manicure or pedicure"> General manicure or pedicure</label>
+            <label><input type="checkbox" name="concern" value="I can send photos on WhatsApp"> I can send photos on WhatsApp</label>
+          </div>
+        </fieldset>
+
+        <label class="wide">
+          <span>Notes for Mineen</span>
+          <textarea name="notes" rows="5" placeholder="Tell Mineen what happened, which nail is affected, or what result you want."></textarea>
+        </label>
+
+        <label class="consent-line">
+          <input name="medicalNotice" type="checkbox" required>
+          <span>I understand consultation confirms suitability. For pain, infection or serious nail disease, I should consult a medical professional first.</span>
+        </label>
+
+        <div class="form-actions">
+          <button class="button primary" type="submit">Open WhatsApp request</button>
+          <a class="button secondary" href="tel:+27837861590">Call instead</a>
+        </div>
+        <p class="form-note">This does not confirm the appointment automatically. Mineen will reply to confirm availability.</p>
+      </form>
+
+      <aside class="booking-side">
+        <article>
+          <h3>What happens next?</h3>
+          <ol>
+            <li>Send the request through WhatsApp.</li>
+            <li>Mineen checks suitability and availability.</li>
+            <li>Your appointment is confirmed directly.</li>
+          </ol>
+        </article>
+        <article>
+          <h3>Contact</h3>
+          <p><a href="tel:+27837861590">083 786 1590</a></p>
+          <p><a href="mailto:mineen@restorenailclinicplett.co.za">mineen@restorenailclinicplett.co.za</a></p>
+          <p>Plettenberg Bay, by appointment.</p>
+        </article>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Restore Nail Clinic, Plettenberg Bay</p>
+    <p><a href="mailto:mineen@restorenailclinicplett.co.za">mineen@restorenailclinicplett.co.za</a> · <a href="tel:+27837861590">083 786 1590</a></p>
+  </footer>
+
+  <script>
+    const form = document.querySelector('#bookingForm');
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      if (!form.reportValidity()) {
+        return;
+      }
+
+      const data = new FormData(form);
+      const concerns = data.getAll('concern');
+      const lines = [
+        'Hi Mineen, I would like to request an appointment at Restore Nail Clinic.',
+        '',
+        'Name: ' + data.get('name'),
+        'Phone: ' + data.get('phone'),
+        'Email: ' + (data.get('email') || 'Not provided'),
+        'Client type: ' + data.get('clientType'),
+        'Treatment: ' + data.get('treatment'),
+        'Preferred date: ' + data.get('date'),
+        'Preferred time: ' + data.get('time'),
+        'Nail concern: ' + (concerns.length ? concerns.join(', ') : 'Not specified'),
+        'Notes: ' + (data.get('notes') || 'None'),
+        '',
+        'I understand consultation confirms suitability before treatment.'
+      ];
+
+      window.location.href = 'https://wa.me/27837861590?text=' + encodeURIComponent(lines.join('\n'));
+    });
+  </script>
+</body>
+</html>
