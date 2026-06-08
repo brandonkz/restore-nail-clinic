@@ -1,6 +1,6 @@
 # Restore Nail Clinic
 
-Static one-page website for Restore Nail Clinic in Plettenberg Bay.
+Static one-page website for Restore Nail Clinic in Plett and surrounding areas.
 
 ## Local preview
 
