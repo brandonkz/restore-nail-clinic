@@ -509,6 +509,14 @@ h3 {
   background: var(--clay-dark);
 }
 
+.price-panel.secondary-panel {
+  opacity: 0.92;
+}
+
+.price-panel.secondary-panel h3 {
+  background: #48656b;
+}
+
 .table-wrap {
   overflow-x: auto;
 }
